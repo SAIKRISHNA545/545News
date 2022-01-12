@@ -5,7 +5,7 @@
             function getnews(u1){
               fetch(u1).then(res => res.json()).then(data => {
                 console.log(data.articles);
-                shownews(data.articles);
+                shownews(data);
                   
                 })
           }
